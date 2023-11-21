@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All_Here_In_Future...♥</title>
+</head>
+<body>
+<nav class="navbaar background h-nav-resp">
+        <ul class="nav-List v-class-resp">
+            <div class="logo"><img src="./imgs/images.jfif" alt="logo"></div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+</nav>
+<section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">The Education of future is here...♥</p>
+                <p class="text-small">the process of receiving or giving systematic instruction, especially at a school or universitythe process of receiving or giving niversity</p>
+                <div class="button">
+                        <button class="btn">look♥</button>
+                        <button class="btn">Watch Video</button>
+                </div>
+            </div>
+                <div class="secondHalf">
+                        <img src="./imgs/download.png" alt="">
+                </div>
+        </div>
+</section>
+<section class="section" id="services">
+        <div class="paras">
+            <p class="sectionTag">The Computer</p>
+            <p class="sectionSubTag">A computer is a machine that can be programmed to carry out sequences of arithmetic or logical operations (computation) automatically. Modern digital electronic computers can perform generic sets of operations known as programs. These programs enable computers to perform a wide range of tasks. A computer system is a nominally complete computer that includes the hardware, operating system (main software), and peripheral equipment needed and used for full operation. This term may also refer to a group of computers that are linked and function together, such as a computer network or computer cluster.</p>
+        </div> 
+        <div class="thumbnails">
+            <img src="./imgs/sideimg1.jpg" alt="laptop img" class="imgfluid">
+        </div>
+</section>
+<section class="section section-left" id="about">
+        <div class="paras">
+            <p class="sectionTag">Programming language...</p>
+            <p class="sectionSubTag">Programming languages provide various ways of specifying programs for computers to run. Unlike natural languages, programming languages are designed to permit no ambiguity and to be concise. They are purely written languages and are often difficult to read aloud. They are generally either translated into machine code by a compiler or an assembler before being run, or translated directly at run time by an interpreter. Sometimes programs are executed by a hybrid method of the two techniques.</p>
+        </div> 
+        <div class="thumbnails">
+            <img src="./imgs/sideimg2.jpg.webp" alt="laptop img" class="imgfluid">
+        </div>
+</section>
+<section class="section" id="Services">
+        <div class="paras">
+            <p class="sectionTag">More information about...</p>
+            <p class="sectionSubTag">There is active research to make non-classical computers out of many promising new types of technology, such as optical computers, DNA computers, neural computers, and quantum computers. Most computers are universal, and are able to calculate any computable function, and are limited only by their memory capacity and operating speed. However different designs of computers can give very different performance for particular problems; for example quantum computers can potentially break some modern encryption algorithms (by quantum factoring) very quickly.</p>
+        </div> 
+        <div class="thumbnails">
+            <img src="./imgs/images (1).jfif" alt="laptop img" class="imgfluid">
+        </div>
+</section>
+<section class="contact" id="contact">
+    <h1 class="textCenter">Contact Us</h1>
+    <div class="form">
+        <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your Name">
+        <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter Your Phone">
+        <input class="form-input" type="text" name="email" id="email" placeholder="Enter Your Email">
+        <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder=" Ellaborate your consurn"></textarea>
+        <button class="btn-Dark btn-Dark">Submit</button>
+    </div>
+</section>
+<footer class="background">
+        <p class="text-footer">
+            Copyright & Copy; 2019 - www.iEducate All Rights Reserved 
+        </p>
+</footer>
+<!-- ******************************************************************************************Css********************************************************************************************* -->
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;600&family=Kalam&display=swap');
+body{
+    background-color: rgb(197, 197, 197);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+font-family: 'Kalam', cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbaar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    height: 65px;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 28%;
+    border-radius: 50px;
+    border: 2px solid white;
+    margin: 2px;
+}
+.nav-List{ 
+width: 70%;
+display: flex;
+align-items: center;
+}
+.nav-List li{
+    list-style: none;
+    padding: 26px 30px;
+}
+.nav-List li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.nav-List li :hover{
+    color:grey;
+}
+.rightNav{
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+#search{
+    padding: 4px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7)url(./imgs/bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstSection{
+height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    margin: auto;
+    height: 75%;
+}
+.firstHalf{
+width: 80%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.secondHalf{
+ width: 30%;   
+}
+.secondHalf img{
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+.text-big{
+font-size: 41px;
+}
+.text-small{
+font-size: 18px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    /* font-size: 18px; */
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+.section-left{
+flex-direction: row-reverse;    
+}
+.paras{
+    padding: 0px 65px;
+}
+.sectionTag{
+    padding: 16px 0;
+    font-weight: bolder;
+}
+.thumbnails img{
+    border: 2px solid black;
+    border-radius: 23px;
+    margin-top: 20px;
+}
+.contact{
+
+    height: 700px;
+}
+.textCenter{
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bolder;
+    font-size: 34px;
+}
+.form{
+    max-width: 62%;
+    margin: 25px auto;
+}
+.form-input{
+margin: 10px 0;
+padding: 3px 13px;
+width: 100%;
+font-size: 19px;
+border: 2px solid grey;
+border-radius: 6px;
+text-align: center;
+}
+.btn-Dark{
+color:grey;
+width: 70px;
+border-radius: 2px solid grey;
+}
+.text-footer{
+    text-align: center;
+    padding: 30px 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+@media only screen and (max-width:960px) {
+    .nav-List{
+        flex-direction: column;
+    }
+    .navbaar{
+        flex-direction: column;
+        height: 460px;
+        transition: all 0.7s ease-in;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .button{
+        text-align: center;
+    }
+    .paras{
+        padding: 0px;
+    }
+}
+</style>
+<!-- ********************************************************Javascript************************************************************************************************* -->
+<script>
+         burger = document.querySelector('.burger')
+        navbaar = document.querySelector('.navbaar')
+        navList = document.querySelector('.nav-List')
+        rightNav = document.querySelector('.rightNav')
+
+        burger.addEventListener('click',()=>{
+            rightNav.classList.toggle('v-class-resp')
+            navList.classList.toggle('v-class-resp')
+            navbaar.classList.toggle('h-nav-resp')
+            })
+</script>
+</body>
+</html>
